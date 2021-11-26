@@ -4,7 +4,6 @@ function domain_check() {
   wget -O cert.sh https://raw.githubusercontent.com/gcp5678/myxrary/main/cert.sh
   sed -i "s/xxx/${domain}/g" ${cert_sh}
  chmod 755 cert.sh && ./cert.sh
-  judge "Nginx 配置 修改"
 }
 
 
