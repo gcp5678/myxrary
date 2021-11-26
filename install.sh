@@ -1,6 +1,6 @@
 function domain_check() {
  read -rp "请输入你的域名信息(eg: www.wulabing.com):" domain
-  cert_sh="/root/ert.sh"
+  cert_sh="/root/cert.sh"
   wget -O cert.sh https://raw.githubusercontent.com/gcp5678/myxrary/main/cert.sh
   sed -i "s/xxx/${domain}/g" ${cert_sh}
  chmod 755 cert.sh && ./cert.sh
