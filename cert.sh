@@ -5,4 +5,4 @@ apt-get install -y openssl cron socat curl unzip vim wget git
 &&chmod 755 /etc/ssl/private 
 && chmod 755 /etc/ssl/private/smitho.crt 
 && chmod 755 /etc/ssl/private/smitho.key 
-&& ~/.acme.sh/acme.sh --upgrade --auto-upgrade  
+&& ~/.acme.sh/acme.sh --upgrade --auto-upgrade
